@@ -1,0 +1,73 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+.idea
+.webpack
+yarn-error.log
+.DS_STORE
+
+.vscode/
+
+aws-config.bat
+
+packages/**/kubernetes/yaml-generation/src/resources/secrets/awsCredentials.ts
+packages/**/kubernetes/yaml-generation/src/resources/secrets/secrets.ts
+packages/**/kubernetes/yaml/Secret*
+
+.env
+.env.dev
+.env.stag*
+.env.prod
+api_test.env
+
+api-docs/
+
+# testing
+**/coverage
+
+# production
+**/build
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+dist/
+
+# theme
+
+.out/
+build-storybook/
+
+build-storybook.log
+*.log
+
+# Transient transpiled theme files (new band name 🎸)
+packages/lessen-manager/theme
+
+# yarn.lock artifact from cdk build
+packages/*/yarn.lock
+
+codebuild/cache
+
+packages/kubernetes/install.sh
+
+packages/lessen-events/netsuite/generated/metadata.json
+
+productionProjectExport.sh
+productionProjectExport.aggregation.ts
+
+pretty-quick-errors.log
+
+caToken.json
+userJWTs.json
+
+# debug file for state charts
+stateChartDebug.ts
+
+deadcode.txt
